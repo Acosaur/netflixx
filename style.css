@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+}
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(images/background.jpg);
+  background-position: center center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 624px;
+  position: relative;
+}
+.main .box {
+  height: 624px;
+  width: 100%;
+  opacity: 0.71;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  max-width: 75vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 75px;
+}
+nav img {
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.ok {
+  height: 88%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  gap: 22px;
+}
+.ok > :first-child {
+  font-size: 48px;
+  font-weight: 900;
+}
+.ok > :nth-child(2) {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 22px;
+}
+.btn:hover {
+  cursor   : pointer;
+}
+.btn1 {
+  width: 105px;
+  height: 28px;
+  font-size: 17px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 3px;
+  position: relative;
+  z-index: 2;
+}
+.btn2 {
+  width: 70px;
+  height: 28px;
+  color: white;
+  background-color: rgb(234, 21, 21);
+  border: none;
+  border-radius: 3px;
+}
+.btn3 {
+  width: 200px;
+  height: 50px;
+  color: white;
+  background-color: rgb(234, 21, 21);
+  border: 1px solid rgb(234, 21, 21);
+  border-radius: 4px;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0 3px;
+}
+.separation {
+  height: 1px;
+  background-color: rgb(234, 21, 21);
+}
+div input {
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 0 117px 0 13px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  background-color: rgba(23, 23, 23, 0.6);
+}
+.first img {
+  height: 250px;
+  width: 180px;
+  margin-right: 45px;
+  margin-top: 32px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.first {
+  margin: 80px 0 0 144px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.he {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 70px 0 0 144px;
+}
+.third {
+  margin-left: 144px;
+}
+.third span {
+  display: inline-flex;
+  height: 320px;
+  width: 250px;
+  margin-right: 14px;
+  margin-top: 27px;
+  border-radius: 18px;
+  background: linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+}
+.wut {
+  display: flex;
+  flex-direction: column;
+}
+.wut > div {
+  margin: 24px 12px 0px 12px;
+}
+.wut :nth-child(2) {
+  margin: 24px 13px;
+  opacity: 0.7;
+}
+.fourth {
+  margin-left: 144px;
+  margin-top: 70px;
+}
+.fourth div h1 {
+  margin-bottom: 20px;
+}
+.q2 {
+  background: rgba(45, 45, 45, 0.7);
+  height: 55px;
+  width: 75vw;
+  margin-bottom: 10px;
+  padding-top: 26px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 26px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-between;
+}
+.q2:hover {
+  cursor: pointer;
+  background-color: rgba(45, 45, 45, 1);
+}
+.tip {
+  margin-left: 444px;
+  margin-top: 63px;
+}
+.top {
+  margin-left: 300px;
+  margin-top: 25px;
+  width: 550px;
+  height: 50px;
+}
+.sixth {
+  margin-left: 144px;
+  margin-top: 50px;
+}
+.sixth > div {
+  margin-bottom: 5px;
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+.lol {
+  display: flex;
+  margin-left: -57px;
+}
+.lol div {
+  margin: 25px 37px;
+  text-decoration: underline;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration-color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+}
+.oppi {
+  margin-top: 37px;
+  font-size: 14px;
+}
